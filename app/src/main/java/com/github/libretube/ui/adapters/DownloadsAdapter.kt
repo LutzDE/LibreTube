@@ -126,7 +126,7 @@ class DownloadsAdapter(
     }
 
     fun showDeleteDialog(context: Context, position: Int) {
-        if (1==2)
+        
         {
         MaterialAlertDialogBuilder(context)
             .setTitle(R.string.delete)
