@@ -126,6 +126,8 @@ class DownloadsAdapter(
     }
 
     fun showDeleteDialog(context: Context, position: Int) {
+        if (1==2)
+        {
         MaterialAlertDialogBuilder(context)
             .setTitle(R.string.delete)
             .setMessage(R.string.irreversible)
@@ -134,6 +136,7 @@ class DownloadsAdapter(
             }
             .setNegativeButton(R.string.cancel, null)
             .show()
+        }
     }
 
     fun deleteDownload(position: Int) {
