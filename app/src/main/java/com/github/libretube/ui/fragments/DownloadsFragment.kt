@@ -155,14 +155,14 @@ class DownloadsFragment : DynamicLayoutManagerFragment() {
                 }
             }
         )
-
+/*
         if (dbDownloads.isNotEmpty()) {
             binding.deleteAll.isVisible = true
             binding.deleteAll.setOnClickListener {
                 showDeleteAllDialog(binding.root.context, adapter)
             }
         }
-
+*/
         binding.shuffleBackground.setOnClickListener {
             BackgroundHelper.playOnBackgroundOffline(requireContext(), null)
         }
